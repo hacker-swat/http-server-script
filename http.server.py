@@ -28,7 +28,7 @@ def main():
             httpd.serve_forever()
 
     except KeyboardInterrupt:
-        print ("Shutdown requested...exiting")
+        print ("\nShutdown requested...exiting")
     except Exception:
         traceback.print_exc(file=sys.stdout)
         sys.exit(0)
