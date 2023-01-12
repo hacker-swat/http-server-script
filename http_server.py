@@ -96,8 +96,8 @@ def listdirs(host, port, protocol):
 
 if __name__ == "__main__":
     try:
-        parser = argparse.ArgumentParser(description="Run a simple HTTP file server")
-        parser.add_argument("--host", type=str, default="", help="hostname to listen on")
+        parser = argparse.ArgumentParser(description="Run a HTTP file server")
+        parser.add_argument("--host", type=str, default="", help="hostname/ip to listen on")
         parser.add_argument("--port", type=int, default=8000, help="port number to listen on (default set to 8000)")
         parser.add_argument("--protocol", type=str,default="http", help="Protocol to use (http or https)")
         parser.add_argument("--certificate", type=str, default="", help="https certificate.pem")
