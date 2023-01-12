@@ -14,5 +14,4 @@ It prints the URLs of all files and folders in the directory being served, with 
 
 It also has a function to generate SSL cert and key in case if not provided.
 
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
 ![Screenshot](https://github.com/hackerswat/http-server-script/blob/main/Screenshot.jpg)
