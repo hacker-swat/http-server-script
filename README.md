@@ -1,6 +1,6 @@
 # http-server-script
 
-This script runs a HTTP or HTTPS server using the built-in Python libraries http.server and ssl.
+### This script runs a HTTP or HTTPS server using the built-in Python libraries http.server and ssl.
 
 It takes 5 arguments: host, port, protocol, certificate and key.
 
