@@ -1,10 +1,12 @@
 # http-server-script
 
-### This script runs a HTTP or HTTPS server using the built-in Python libraries http.server and ssl.
+This script runs a HTTP or HTTPS server and list all the folders and files in the directory which is being served.
 
 It takes 5 arguments: host, port, protocol, certificate and key.
 
-It starts the server on the specified host and port, using the specified protocol (either "http" or "https"). If "https" is specified, it uses the provided certificate and key files to wrap the socket in SSL/TLS.
+It starts the server on the specified host and port, using the specified protocol (either "http" or "https"). 
+
+If "https" is specified, it uses the provided certificate and key files to wrap the socket in SSL/TLS.
 
 It also has some helper functions to check and return the valid host, port, protocol, certificate and key.
 
