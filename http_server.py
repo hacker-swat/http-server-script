@@ -3,17 +3,6 @@ import ssl
 import argparse
 import socket
 import os
-    """
-    Runs a simple HTTP/HTTPS server.
-
-    Parameters:
-    - host (str): The hostname or IP address to bind the server to.
-    - port (int): The port number to bind the server to.
-    - protocol (str): The protocol to use, either "http" or "https".
-    - certificate (str): The path to the SSL certificate file when using HTTPS.
-    - key (str): The path to the SSL key file when using HTTPS.
-
-"""
 
 def run_server(host, port, protocol, certificate, key):
     server_address = (host, port)
