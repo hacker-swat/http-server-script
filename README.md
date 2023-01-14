@@ -1,19 +1,27 @@
 # http-server-script
 
-This script runs a HTTP or HTTPS server and list all the folders and files in the directory which is being served.
+This script is a HTTP server that can serve either HTTP or HTTPS (with SSL ) traffic. 
 
-It takes 5 arguments: host, port, protocol, certificate and key.
+## Features
+- Can serve either HTTP or HTTPS traffic
+- Can generate SSL certificate and key files
+- Print the URLs of all the files and folders in the current directory
 
-It starts the server on the specified host and port, using the specified protocol (either "http" or "https"). 
+## Getting Started
 
-If "https" is specified, it uses the provided certificate and key files to wrap the socket in SSL/TLS.
+### Prerequisites
+- Python3 should be installed on the machine
+- It is recommended to add the script directory to the system's PATH environment variable so that the script can be run from any directory 
 
-It also has some helper functions to check and return the valid host, port, protocol, certificate and key.
+### Installing
+- Clone this repository
+- Run the script with the desired arguments
 
-It also has a function listdirs which list all the folders and files in the directory which is being served.
-
-It prints the URLs of all files and folders in the directory being served, with "http" or "https" depending on the specified protocol.
-
-It also has a function to generate SSL cert and key in case if not provided.
+### Usage
+```sh
+python http-server.py -H <hostname> -p <port> -P <protocol> -c <certificate> -k <key> -gs <generate_ssl>
+```
+### Default Network Interface
+If no hostname or IP address is specified, the script will automatically choose the last network interface that connected
 
 ![Screenshot](https://github.com/hackerswat/http-server-script/blob/main/Screenshot.jpg)
