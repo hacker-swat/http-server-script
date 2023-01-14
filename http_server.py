@@ -129,12 +129,12 @@ def generatessl(host):
 if __name__ == "__main__":
     try:
         parser = argparse.ArgumentParser(description="Run a simple HTTP file server")
-        parser.add_argument("--host", type=str, default="", help="hostname to listen on")
-        parser.add_argument("--port", type=int, default=8000, help="port number to listen on (default set to 8000)")
-        parser.add_argument("--protocol", type=str,default="http", help="Protocol to use (http or https)")
-        parser.add_argument("--certificate", type=str, default="", help="https certificate.pem")
-        parser.add_argument("--key", type=str, default="", help="https private key.pem")
-        parser.add_argument("--generate-ssl" ,action='store_true',help="generate https server certificate")
+        parser.add_argument("-H","--host", type=str, default="", help="hostname to listen on")
+        parser.add_argument("-p", "--port", type=int, default=8000, help="port number to listen on (default set to 8000)")
+        parser.add_argument("-P","--protocol", type=str,default="http", help="Protocol to use (http or https)")
+        parser.add_argument("-c","--certificate", type=str, default="", help="https certificate.pem")
+        parser.add_argument("-k","--key", type=str, default="", help="https private key.pem")
+        parser.add_argument("-gs","--generate-ssl" ,action='store_true',help="generate https server certificate")
         args = parser.parse_args()
         
 
@@ -142,7 +142,6 @@ if __name__ == "__main__":
         
 
         run_server(i[0], i[1], i[2],i[3],i[4])
-        print(i)
 
 
     except KeyboardInterrupt:
