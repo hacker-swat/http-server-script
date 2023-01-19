@@ -1,4 +1,4 @@
-# http-server-script
+# http-file-shere
 
 This script is a HTTP server that can serve either HTTP or HTTPS (with SSL ) traffic. 
 
