@@ -1,27 +1,27 @@
-# http-file-shere
+# HTTP-file-share
 
-This script is a HTTP server that can serve either HTTP or HTTPS (with SSL ) traffic. 
+This script is a HTTP server that allows you to serve either HTTP or HTTPS traffic. It offers the following features:
 
 ## Features
-- Can serve either HTTP or HTTPS traffic
-- Can generate SSL certificate and key files
-- Print the URLs of all the files and folders in the current directory
+- Serves either HTTP or HTTPS traffic
+- Ability to generate SSL certificate and key files
+- Prints the URLs of all the files and folders in the current directory
 
 ## Getting Started
 
 ### Prerequisites
-- Python3 should be installed on the machine
-- It is recommended to add the script directory to the system's PATH environment variable so that the script can be run from any directory 
+- Python3 must be installed on the machine
 
-### Installing
-- Clone this repository
-- Run the script with the desired arguments
+### Installation
+1. Clone this repository
+2. Add the script directory to the system's PATH environment variable to run the script from any directory
+3. Run the script with the desired arguments
 
 ### Usage
 ```sh
 python http-server.py -H <hostname> -p <port> -P <protocol> -c <certificate> -k <key> -gs <generate_ssl>
 ```
 ### Default Network Interface
-If no hostname or IP address is specified, the script will automatically choose the last network interface that connected
+If no hostname or IP address is specified, the script will automatically select the last network interface that was connected as the default.
 
 ![Screenshot](https://github.com/hackerswat/http-server-script/blob/main/Screenshot.jpg)
