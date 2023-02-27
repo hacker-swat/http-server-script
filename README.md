@@ -14,7 +14,7 @@ This script is a HTTP server that allows you to serve either HTTP or HTTPS traff
 
 ### Installation
 1. Clone this repository
-2. Add the script directory to the system's PATH environment variable to run the script from any directory
+2. Run install.sh to add the script to the PATH.
 3. Run the script with the desired arguments
 
 ### Usage
