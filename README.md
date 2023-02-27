@@ -3,9 +3,9 @@
 This script is a HTTP server that allows you to serve either HTTP or HTTPS traffic. It offers the following features:
 
 ## Features
-- Serves either HTTP or HTTPS traffic
-- Ability to generate SSL certificate and key files
 - Prints the URLs of all the files and folders in the current directory
+- Ability to generate SSL certificate and key files
+- Serves either HTTP or HTTPS traffic
 
 ## Getting Started
 
