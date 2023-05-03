@@ -25,3 +25,7 @@ python http-server.py -H <hostname> -p <port> -P <protocol> -c <certificate> -k 
 If no hostname or IP address is specified, the script will automatically select the last network interface that was connected as the default.
 
 ![Screenshot](https://github.com/hackerswat/http-server-script/blob/main/Screenshot.png)
+
+# todo
+- add GUI for windows
+- add encryption
