@@ -26,6 +26,13 @@ If no hostname or IP address is specified, the script will automatically select 
 
 ![Screenshot](https://github.com/hackerswat/http-server-script/blob/main/Screenshot.png)
 
-# todo
+## todo
 - add GUI for windows
-- add encryption
+- add encryption string
+- add support to POST req
+- add option to edit the headers
+- add .conf file
+- add option to show only the reqest content
+- handle errors better
+
+  
